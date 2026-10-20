@@ -23,7 +23,7 @@ def get_key():
 
 
 def get_model():
-    return os.environ.get("GEMINI_MODEL", "gemini-3.8-flash").strip() or "gemini-3.8-flash"
+    return os.environ.get("GEMINI_MODEL", "gemini-3-flash-preview").strip() or "gemini-3-flash-preview"
 
 
 # ---------------- HERO ----------------
